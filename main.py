@@ -21,4 +21,4 @@ for i in range(0,total_team) :
     else :
         print(f'Nama {nama} tidak ada di dalam list team!!')
 
-# print('Ega' == teams[i[0]][1] or teams[1][2])
+# print('Ega' == teams[i[0]][1] or teams[1][2]) 
