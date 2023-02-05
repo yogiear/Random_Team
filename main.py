@@ -13,12 +13,14 @@ total_team = len(teams)
 
 #  input member name
 nama = input('Masukkan nama: ')
+# print(total_team)
 
 #  loop and find matching team
 for i in range(0,total_team) :
-    if nama == teams[i][0] or teams[i][1] or teams[i][2] :
+    if nama == teams[i][0] or nama == teams[i][1] or nama == teams[i][2] :
         print(f'{nama} adalah bagian dari tim {teams[i]}')
     else :
         print(f'Nama {nama} tidak ada di dalam list team!!')
+    # break  
 
 # print('Ega' == teams[i[0]][1] or teams[1][2]) 
