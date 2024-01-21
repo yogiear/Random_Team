@@ -20,10 +20,6 @@ ada = True
 for i in range(0,total_team) :
     if nama == teams[i][0] or nama == teams[i][1] or nama == teams[i][2] :
         print(f'{nama} adalah bagian dari tim {teams[i]}')
-        ada = True
+        break
     else :
-        ada = False
-
-# Coding untuk tidak adanya nama di dalam list tim
-if ada == False :
-    print(f'Nama {nama} tidak ada di dalam list!')
+        print(f'Nama {nama} tidak ada di dalam list!')
